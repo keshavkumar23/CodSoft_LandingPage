@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+.logo img{
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.links a{
+    margin: 0 5px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}
+.links a:last-child{
+    background: pink;
+    border-radius: 5px;
+}
+.links a:hover{
+    color: rgb(74, 73, 74);
+}
+.line h1{
+    text-align: center;
+    color: rgb(95, 94, 95);
+}
+.line{
+    margin-top: 30vh;
+}
+.line a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(74, 73, 74);
+}
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20vh;
+    padding: 0 30px;
+}
+.socialmedia img{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+.socialmedia img:hover{
+    cursor: pointer;
+}
+footer div{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5.2vh;
+}
